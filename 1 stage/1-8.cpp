@@ -3,7 +3,11 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World!";
+    int year;
+
+    cin >> year;
+    
+    cout << year - 543;
 
     return 0;
 }
